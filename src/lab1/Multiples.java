@@ -1,6 +1,6 @@
 package lab1;
 
-public class Mulitiples {
+public class Multiples {
     public static void main(String[] args) {
         int a;
         a = multiples(1000);
