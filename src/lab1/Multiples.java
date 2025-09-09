@@ -23,4 +23,22 @@ public class Multiples {
         }
         return m;
     }
+    public static int multiples(){
+        int b = 0;
+        for (int i = 1; i < 1000; i++) {
+            boolean divisibleBy3 = i % 3 == 0;
+            boolean divisibleBy5 = i % 5 == 0;
+            if (divisibleBy3 && divisibleBy5) {
+                b += 1;
+            } else if (divisibleBy3) {
+                b += 1;
+            } else if (divisibleBy5) {
+                b += 1;
+            } else {
+                b += 0;
+            }
+        }
+        return b;
+    }
+
 }
